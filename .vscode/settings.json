@@ -1,18 +1,4 @@
 {
-  "latex-workshop.latex.tools": [
-    {
-      "name": "latexmk",
-      "command": "latexmk",
-      "args": [
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "-file-line-error",
-        "-pdfdvi",
-        "-outdir=%OUTDIR%",
-        "%DOC%"
-      ],
-      "env": {}
-    }
-  ],
-  "latex-workshop.latex.autoClean.run": "onBuilt"
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.recipe.default": "latexmk (latexmkrc)",
 }
