@@ -1,4 +1,5 @@
 {
   "latex-workshop.latex.autoClean.run": "onBuilt",
   "latex-workshop.latex.recipe.default": "latexmk (latexmkrc)",
+  "remote.restoreForwardedPorts": false,
 }
